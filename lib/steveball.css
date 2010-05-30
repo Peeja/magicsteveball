@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #c3cdd4;
+}
+
+#steveball {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+a.source {
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  bottom: -35px;
+  text-decoration: none;
+  color: #6e6e6e;
+}
