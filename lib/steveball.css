@@ -1,9 +1,9 @@
-html, body {
-  height: 100%;
-}
+* { margin: 0; padding: 0; }
 
 body {
   background-color: #c3cdd4;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  overflow: hidden;
 }
 
 #steveball {
@@ -20,4 +20,48 @@ a.source {
   bottom: -35px;
   text-decoration: none;
   color: #6e6e6e;
+}
+
+#about {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 0;
+}
+
+#about_tab {
+  position: absolute;
+  top: 0;
+  left: -42px;
+  width: 30px;
+  background-color: #ffc5a7;
+  height: 1em;
+  text-align: center;
+  font-size: 45px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-right-style: none;
+  clear: left;
+}
+
+#about_contents {
+  width: 350px;
+  background-color: #ffc5a7;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+}
+
+#about_contents p + h1 {
+  margin-top: 20px;
+}
+
+#about_contents a {
+  text-decoration: none;
+  color: #09389a;
+}
+
+#about_contents a:hover {
+  text-decoration: underline;
 }
