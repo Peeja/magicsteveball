@@ -54,7 +54,6 @@ jQuery(function($) {
       var width = $("#about_contents").width() +
                   parseInt($("#about_contents").css("padding-left")) +
                   parseInt($("#about_contents").css("padding-right"));
-      console.log(width);
       $("#about").animate({right: width}, 500);
 
       shim = $("<div>").css({
