@@ -1,3 +1,12 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -72,4 +81,19 @@ a.source {
 
 #about_contents a:hover {
   text-decoration: underline;
+}
+
+#about_contents iframe {
+  float: left;
+}
+
+#about_contents p.github {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: .8em;
+}
+
+#about_contents iframe {
+  margin-top: 20px;
 }
