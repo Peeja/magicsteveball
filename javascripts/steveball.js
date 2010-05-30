@@ -72,4 +72,6 @@ jQuery(function($) {
       $("#about").animate({right: 0}, 500);
     }
   });
+
+  $("#about_tab").click();
 });
