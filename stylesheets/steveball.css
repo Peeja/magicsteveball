@@ -4,8 +4,11 @@
   z-index: 0;
 }
 
-body {
+html {
   background-color: #c3cdd4;
+}
+
+body {
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   overflow: hidden;
 }
