@@ -54,13 +54,27 @@
       and <a href="http://www.nothingundone.net/">long streams</a>.
     </p>
 
-    <iframe src="http://www.facebook.com/plugins/like.php?href=http%253A%252F%252Fexample.com%252Fpage%252Fto%252Flike&amp;layout=button_count&amp;show_faces=true&amp;width=100%&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+    <fb:like href="http://magicsteveball.com/" width="100%" font="arial"></fb:like>
 
     <p class="github">
       <a href="http://github.com/Peeja/magicsteveball">[grab the code]</a>
     </p>
   </div>
 </div>
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: 'your app id', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
 
 </body>
 </html>
