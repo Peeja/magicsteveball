@@ -13,7 +13,8 @@ Answers = [
   },
   {
     text: "You won't\nbe disap-\npointed",
-    source: "http://www.macrumors.com/2010/05/23/steve-jobs-on-wwdc-announcements-you-wont-be-disappointed/"
+    source: "http://www.macrumors.com/2010/05/23/steve-jobs-on-wwdc-announcements-you-wont-be-disappointed/",
+    size: 16
   },
   {
     text: "No.",
