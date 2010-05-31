@@ -84,7 +84,7 @@ a.source {
 }
 
 #about_contents iframe {
-  float: left;
+  margin-top: 20px;
 }
 
 #about_contents p.github {
@@ -94,6 +94,8 @@ a.source {
   font-size: .8em;
 }
 
-#about_contents iframe {
-  margin-top: 20px;
+#about_contents p.disclaimer {
+  font-style: italic;
+  font-size: 10px;
+  text-align: center;
 }
