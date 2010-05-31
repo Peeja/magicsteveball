@@ -25,10 +25,10 @@ jQuery(function($) {
   paper.logo(center);
 
   var answerWindow = null;
-  var answerIndex = 0;
   $("#steveball").click(function() {
     if (!answerWindow) {
-      var answer = Answers[answerIndex++];
+      var answerIndex = Math.floor(Math.random() * Answers.length);
+      var answer = Answers[answerIndex];
       answerWindow = paper.answerWindow(center, answer, function() {
         $("<a>")
           .addClass("source")
